@@ -50,4 +50,4 @@ echo "Installing Kubernetes"
   echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" > /etc/apt/sources.list.d/kubernetes.list
 }
 
-apt update && apt install -y kubeadm=1.16.2-00 kubelet=1.16.2-00 kubectl=1.16.2-00
+apt update && apt install -y kubeadm=1.22.2-00 kubelet=1.22.2-00 kubectl=1.22.2-00
